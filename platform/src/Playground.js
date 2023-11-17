@@ -7,7 +7,11 @@ import 'ace-builds/src-min-noconflict/mode-html';
 import 'ace-builds/src-min-noconflict/ext-modelist';
 import 'ace-builds/src-min-noconflict/ext-language_tools';
 
-import 'metro4';
+// BEGIN YAMTL Playground
+// FIXME: this is ad-hoc code
+// import 'metro4' // this import does not work for local debugging
+import '../../node_modules/metro4/build/metro.js' // this import does not work for docker
+// END YAMTL Playground
 
 import { FileHandler } from './FileHandler.js';
 import { ActivityManager } from './ActivityManager.js';
