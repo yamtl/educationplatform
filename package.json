@@ -3,8 +3,5 @@
   "workspaces": [
     "platform",
     "tokenserver"
-  ],
-  "dependencies": {
-    "typescript": "^5.2.2"
-  }
+  ]
 }

@@ -9,8 +9,8 @@ import 'ace-builds/src-min-noconflict/ext-language_tools';
 
 // BEGIN YAMTL Playground
 // FIXME: this is ad-hoc code
-// import 'metro4' // this import does not work for local debugging
-import '../../node_modules/metro4/build/metro.js' // this import does not work for docker
+import 'metro4' // this import does not work for local debugging
+// import '../../node_modules/metro4/build/metro.js' // this import does not work for docker
 // END YAMTL Playground
 
 import { FileHandler } from './FileHandler.js';
